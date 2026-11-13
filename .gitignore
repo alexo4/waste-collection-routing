@@ -1,0 +1,6 @@
+build/
+cmake-build-debug/
+.idea/
+.DS_Store
+textFiles/GL_Route.txt
+waste-routing

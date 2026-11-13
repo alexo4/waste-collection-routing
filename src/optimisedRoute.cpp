@@ -5,6 +5,7 @@
 #include "../Headers/optimisedRoute.h"
 #include "../Headers/FloydWarshall.h"
 #include <limits>
+#include <algorithm>
 
 
 optimisedRoute::optimisedRoute(GarbageLocations *gl) {
@@ -23,8 +24,8 @@ void optimisedRoute::findOptimisedRoute() {
 
     vector<int> currentRoute;
     currentRoute.push_back(0);
-    int bestDistance;
-    int currentDistance;
+    int bestDistance = 0;
+    int currentDistance = 0;
 
     bestRoute = shortestPath(0, bestRoute, currentRoute, bestDistance, currentDistance, maxDistance, locationsForCollection,
                              shortestPathMatrix);

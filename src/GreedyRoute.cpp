@@ -4,6 +4,7 @@
 
 #include "../Headers/GreedyRoute.h"
 #include <limits>
+#include <algorithm>
 
 using namespace std;
 
