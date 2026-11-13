@@ -1,0 +1,43 @@
+Map:
+                B
+                |
+                2
+                |
+        C---4---D---|
+        |       |   |
+        2       3   |
+        |       |   |
+E---4---A---2---F   5
+|       |       |   |
+|       3       4   |
+|       |       |   |
+6       G---2---H---|
+|       |
+|       3
+|       |
+I---2---J
+
+Waste Levels: 
+B: 53%  C: 2%  D: 93%  E: 94%  F: 94%  G: 35%  H: 76%  I: 98%  J: 41%  
+
+Non-Optimised Route(1):
+||A||-->C-->|D|-->|B|-->D-->|F|-->|H|-->G-->|J|-->|I|-->|E|-->||A||
+Total Costs: RM2505
+Distance: 34KM
+Garbage Locations Emptied Up: 7
+
+Optimised Route(2):
+||A||-->|F|-->|D|-->|H|-->G-->||A||
+Total Costs: RM1087.5
+Distance: 15KM
+Garbage Locations Emptied Up: 3
+
+Greedy Route(3):
+||A||-->|F|-->|D|-->|B|-->D-->|H|-->|G|-->|J|-->|I|-->|E|-->||A||
+Total Costs: RM2607.5
+Distance: 31KM
+Garbage Locations Emptied Up: 8
+
+Please choose which route you would like to take (1/2/3): 2
+
+All Relevant information to take the chosen route is saved in the GL_Route text file

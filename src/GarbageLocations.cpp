@@ -6,6 +6,8 @@
 #include <fstream>
 #include <iostream>
 #include <sstream>
+#include <ctime>
+#include <cstdlib>
 
 GarbageLocations::GarbageLocations() {
     findNumOfLocations();
